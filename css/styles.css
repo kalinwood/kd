@@ -77,8 +77,10 @@ a:hover {
 	bottom: 30px;
 	padding-left: 40px;
 	position: fixed;
+	width: 100%;
 }
 
 @media (max-width: 640px) {
-	.content { width: 100%; text-align: center; padding: 60px; }
+	.content { width: 100%; text-align: center; padding: 0 60px; }
+	.who { font-size: 14px; text-align: center; padding: 0 20px; }
 	}
