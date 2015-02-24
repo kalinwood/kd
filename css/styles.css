@@ -30,39 +30,70 @@
 \*-----------------------------------*/
 
 html, body {
+	background-color: #F9F9F9;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	color: #151412;
+	font-weight: 400;
+	font-size: 3em;
+	margin-bottom: 40px;
+}
+
+h2 {
+	color: #666666;
+	font-weight: 300;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+p {
+	color: #666666;
+	font-weight: 300;
+}
+
+.hero {
+	max-width: 600px;
+	margin: 80px auto;
+	text-align: center;
+}
+
+.logo {
+	max-width: 125px;
+	margin-top: 40px;
+}
+
+.austin {
+	height: 400px;
 	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
-	height: 100%;
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	color: white;
 }
 
-.content {
-	width: 300px;
-	height: 240px;
-	padding-left: 40px;
+.who {
+	margin: 40px 0;
+	text-align: center;
+	line-height: 2em;
 }
 
-p {
-	opacity: .7;
-	margin-top: 10px;
+.hello {
+	padding: 80px 0;
+	text-align: center;
 }
 
-.logo {
-	max-width: 100px;
-	margin-top: 30px;
-	margin-bottom: 10px;
+.big {
+	font-size: 3em;
 }
 
 a {
 	text-decoration: none;
-	border-bottom: 1px solid #DDFD5A;
+	border-bottom: 2px solid #1CE1DB;
 	padding-bottom: 5px;
-	color: white;
+	color: #151412;
 	cursor: pointer;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -70,17 +101,7 @@ a {
 }
 
 a:hover {
-	color: #DDFD5A;
+	color: #1CE1DB;
 }
 
-.who {
-	bottom: 30px;
-	padding-left: 40px;
-	position: fixed;
-	width: 100%;
-}
 
-@media (max-width: 640px) {
-	.content { width: 100%; text-align: center; padding: 0 60px; }
-	.who { font-size: 14px; text-align: center; padding: 0 20px; }
-	}
