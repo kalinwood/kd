@@ -75,9 +75,9 @@ p {
 	height: 400px;
 	max-width: 1500px;
 	margin: 0 auto;
-	background-image: url(../images/bg3.jpg);
+	background-image: url(../images/deer2.gif);
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 	background-size: cover;
 }
 
